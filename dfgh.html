@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section with Photos</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+  }
+
+  /* Section styling */
+  section {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  section h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  /* Image gallery */
+  .photo-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .photo-gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .photo-gallery img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  }
+</style>
+</head>
+<body>
+
+<!-- Section with images -->
+<section>
+  <h1>Our Featured Collection</h1>
+  <div class="photo-gallery">
+    <img src="https://via.placeholder.com/250" alt="Photo 1">
+    <img src="https://via.placeholder.com/250" alt="Photo 2">
+    <img src="https://via.placeholder.com/250" alt="Photo 3">
+    <img src="https://via.placeholder.com/250" alt="Photo 4">
+  </div>
+</section>
+
+</body>
+</html>
+
+
+
+

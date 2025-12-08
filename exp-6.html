@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Page</title>
+  <style>
+
+    header {
+      background-color: #f2f2f2;
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: black;
+    }
+
+    nav a {
+      margin: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    th {
+      background-color: #eee;
+      padding: 10px;
+    }
+
+    td {
+      padding: 15px;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    select {
+      margin-left: 10px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <center>
+    <img src="amazon-logo.webp" height="200px" width="1352px">
+  </center>
+
+  <header>
+    <div class="logo">Amazon</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Category</a>
+      <a href="#">Chart</a>
+    </nav>
+  </header>
+
+  <h1>
+    Laptop Category
+    <select>
+      <option>MAC-BOOK</option>
+      <option>MAC</option>
+      <option>Lenovo</option>
+    </select>
+  </h1>
+
+  <table border="1">
+    <tr>
+      <th>MAC-BOOK</th>
+      <th>MAC</th>
+      <th>Lenovo</th>
+    </tr>
+
+    <tr>
+      <td>
+        <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&q=60&w=600" height="250px" width="300px">
+        <div class="product-name">MAC-BOOK</div>
+        <div class="price">$1200</div>
+      </td>
+
+      <td>
+        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=60&w=600" height="250px" width="300px">
+        <div class="product-name">MAC 2s</div>
+        <div class="price">$1000</div>
+      </td>
+
+      <td>
+        <img src="https://images.unsplash.com/photo-1504707748692-419802cf939d?auto=format&fit=crop&q=60&w=600" height="250px" width="300px">
+        <div class="product-name">Lenovo</div>
+        <div class="price">$1100</div>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Motorola</th>
+      <th>Nokia</th>
+      <th>IQOO</th>
+    </tr>
+  </table>
+
+</body>
+</html>
