@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Room Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+        .form-container {
+            width: 400px;
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 7px;
+            margin-top: 5px;
+        }
+        button {
+            width: 100%;
+            margin-top: 15px;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Hotel Room Booking</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" required>
+
+        <label>Check-in Date</label>
+        <input type="date" required>
+
+        <label>Check-out Date</label>
+        <input type="date" required>
+
+        <label>Room Type</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Single</option>
+            <option>Double</option>
+            <option>Deluxe</option>
+            <option>Suite</option>
+        </select>
+
+        <label>Number of Guests</label>
+        <input type="number" min="1" max="10" required>
+
+        <button type="submit">Book Now</button>
+    </form>
+</div>
+
+</body>
+</html>
